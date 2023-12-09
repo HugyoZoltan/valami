@@ -1,0 +1,21 @@
+width-height:
+this section sets the height and width of the cube
+
+border-radius:
+This property gives the element rounded corners. The value (20px) determines the amount of rounding.
+
+transition: border-radius 0.5s ease-in-out;
+These are sets the transition effect.When the border-radius changes, it performs the changes in 0.5 seconds, and "ease-in-out" smoothes the beginning and end of the transition, so the movement is slower at the beginning and end.
+
+hover:
+when you hover over this element, the rules below apply.
+
+border-radius: 50%
+reduces the border
+_________________________
+
+This line adds an external style sheet (CSS file) reference to the view template.
+the path to the CSS file on your system.
+
+
+inserts an animated snippet (animated_snippet.a_features_10) into existing snippets in the UI.

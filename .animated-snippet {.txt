@@ -1,0 +1,29 @@
+.animated-snippet {
+    overflow: hidden;
+}
+
+.animated-text {
+    animation: slide-in 2s ease infinite;
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+xml:
+
+<odoo>
+    <data>
+        <template id="my_module_views" name="my snippet">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/css" href="/animated_snippets/static/src/css/a_features_10.css"/>
+            </xpath>
+        </template>
+    </data>
+</odoo>

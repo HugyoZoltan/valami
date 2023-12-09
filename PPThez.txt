@@ -1,0 +1,21 @@
+What is odoo modul:
+Odoo modules support a wide range of business functions such as sales, procurement, finance and warehouse management.
+The modules provide a unified and coherent platform for managing business processes.
+
+How to make a module:
+__init__.py
+In Odoo, the __init__.py file allows the module to become a Python package, making the module's source code more structured.
+You can often initialize your Odoo module in this file, for example set up file import or other initial steps.
+
+__manifest__.py:
+ the manifest file for Odoo modules, which contains metadata and configuration related to the module.
+Information in this file includes the module name, version, author, description, dependencies, installation instructions, and more.
+The manifest file is essential for the Odoo system, as it is based on this information that modules are installed, updated and managed.
+
+Animated snippets:
+Animated snippets have visual appeal and help grab users' attention.
+These are dynamic elements that can be easily inserted into Odoo web pages and reports.
+With animated snippets, information can be presented easily and visually, thus increasing the user experience.
+
+xml.files:
+These XML files describe how data is displayed in the user interface, how forms, views, access rights, and more can be configured.
